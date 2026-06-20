@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulaciones de Física II</title>
+  <meta name="description" content="Página principal de simulaciones interactivas de Física II.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="topbar contenedor-ancho" aria-label="Navegación principal">
+      <a class="brand" href="index.html" aria-label="Ir al inicio">
+        <span class="brand-mark">FII</span>
+        <span>Simulaciones de Física</span>
+      </a>
+      <a class="topbar-link" href="#simulaciones">Ver simulaciones</a>
+    </nav>
+
+    <section class="hero contenedor-ancho">
+      <div class="hero-texto">
+        <p class="etiqueta">Proyecto interactivo</p>
+        <h1>Laboratorio virtual de electromagnetismo</h1>
+        <p>
+          Selecciona una simulación para abrirla en una página independiente.
+          El formato está pensado para que las cinco simulaciones tengan la misma presentación,
+          como una galería con vista previa.
+        </p>
+      </div>
+
+      <div class="hero-panel" aria-hidden="true">
+        <div class="orbita orbita-uno"></div>
+        <div class="orbita orbita-dos"></div>
+        <div class="nucleo">+</div>
+        <div class="campo campo-a"></div>
+        <div class="campo campo-b"></div>
+        <div class="campo campo-c"></div>
+      </div>
+    </section>
+  </header>
+
+  <main class="contenedor-ancho seccion" id="simulaciones">
+    <div class="seccion-titulo">
+      <p class="etiqueta">Menú principal</p>
+      <h2>Simulaciones disponibles</h2>
+      <p>La primera simulación ya está conectada. Las otras tarjetas quedan listas para agregar los archivos de tus compañeras.</p>
+    </div>
+
+    <section class="grid-simulaciones" aria-label="Listado de simulaciones">
+      <a class="sim-card activa" href="simulaciones/gauss/index.html">
+        <div class="preview preview-gauss">
+          <span class="preview-linea linea-1"></span>
+          <span class="preview-linea linea-2"></span>
+          <span class="preview-linea linea-3"></span>
+          <span class="preview-esfera"></span>
+          <span class="preview-gaussiana"></span>
+          <span class="preview-grafica"></span>
+        </div>
+        <div class="card-body">
+          <span class="card-tag">Electrostática</span>
+          <h3>Ley de Gauss</h3>
+          <p>Campo eléctrico de una esfera aislante con carga uniforme y no uniforme radial.</p>
+          <span class="abrir">Abrir simulación →</span>
+        </div>
+      </a>
+
+      <article class="sim-card pendiente">
+        <div class="preview preview-placeholder">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="card-body">
+          <span class="card-tag">Pendiente</span>
+          <h3>Simulación 2</h3>
+          <p>Espacio reservado para la simulación de una compañera.</p>
+          <span class="abrir">Agregar después</span>
+        </div>
+      </article>
+
+      <article class="sim-card pendiente">
+        <div class="preview preview-placeholder dos">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="card-body">
+          <span class="card-tag">Pendiente</span>
+          <h3>Simulación 3</h3>
+          <p>Espacio reservado para la simulación de una compañera.</p>
+          <span class="abrir">Agregar después</span>
+        </div>
+      </article>
+
+      <article class="sim-card pendiente">
+        <div class="preview preview-placeholder tres">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="card-body">
+          <span class="card-tag">Pendiente</span>
+          <h3>Simulación 4</h3>
+          <p>Espacio reservado para otra simulación del proyecto.</p>
+          <span class="abrir">Agregar después</span>
+        </div>
+      </article>
+
+      <article class="sim-card pendiente">
+        <div class="preview preview-placeholder cuatro">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="card-body">
+          <span class="card-tag">Pendiente</span>
+          <h3>Simulación 5</h3>
+          <p>Espacio reservado para otra simulación del proyecto.</p>
+          <span class="abrir">Agregar después</span>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer contenedor-ancho">
+    <p>Proyecto de Física II · Página preparada para GitHub Pages</p>
+  </footer>
+</body>
+</html>
